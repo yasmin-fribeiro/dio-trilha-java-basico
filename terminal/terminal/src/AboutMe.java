@@ -3,7 +3,7 @@ public class AboutMe {
 
         String nome = args [0];
         String sobrenome = args [1];
-        int idade = Integer.valueOf(args  [2]);
+        int idade = args Integer.valueOf [2];
         double altura = Double.valueOf(args[3]);
 
         System.out.println("Olá, me chamo " + nome + " " + sobrenome);
