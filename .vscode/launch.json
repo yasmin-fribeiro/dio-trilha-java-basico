@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AboutMeScanner",
+            "request": "launch",
+            "mainClass": "AboutMeScanner",
+            "projectName": "dio-trilha-java-basico_f96f45f"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
@@ -15,7 +22,12 @@
             "name": "AboutMe",
             "request": "launch",
             "mainClass": "AboutMe",
-            "args": ["Yasmin", "Ribeiro", "29", "1.50"],
+            "args": [
+                "Yasmin",
+                "Ribeiro",
+                "29",
+                "1.50"
+            ],
             "projectName": "dio-trilha-java-basico_f96f45f"
         },
         {
